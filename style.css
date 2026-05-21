@@ -1,1 +1,82 @@
-/* Add you CSS here */
+:root {
+    --bg: #f7f3ee;
+    --primary: #2f3e46;
+    --accent: #a26769;
+    --text: #333333;
+    --card: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--primary);
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+/* Profile Section */
+.profile {
+    padding: 40px 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #333;
+}
+
+.profile h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.profile p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Social Links */
+.social-links img {
+    width: 50px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+.hobbies {
+    background-color: var(--card);
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.hobbies h2 {
+    color: var(--accent);
+    margin-bottom: 10px;
+}
